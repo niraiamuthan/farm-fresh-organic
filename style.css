@@ -158,7 +158,7 @@
 
 .drop-list {
     margin-top: 27px;
-    background-color: #FFFF;
+    background-color: #34AD54;
     padding: 10px;
     position: absolute;
     z-index: 1000;
@@ -168,9 +168,12 @@
 
 .drop-list li {
     padding: 10px;
+    color: #fff;
     text-align: start;
 }
-
+.drop-list li:hover{
+    color: #FF9933;
+}
 .page:hover .drop-list {
     display: block;
 }
@@ -394,6 +397,7 @@
     transition: 1s;
 
 
+
 }
 
 .organic-fruits:hover {
@@ -580,7 +584,8 @@
 
 .details {
     width: 100%;
-    height: 200px;
+    height: 200 px;
+    padding-bottom: 10px;
     background-color: #34AD54;
 
 }
